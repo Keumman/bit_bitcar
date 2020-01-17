@@ -1,0 +1,129 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Old+Standard+TT:700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Nanum+Myeongjo&display=swap');
+header {
+    width : 100%;
+    height: 10%;
+    position: relative;
+    padding-bottom: 30px;
+}
+header a{
+	color: orange;
+	text-decoration: none;
+	font-family: 'Nanum Myeongjo';
+}
+#login{
+	text-align: right;
+}
+h3 a{
+	color: black;
+}
+
+/* 메뉴바 부분*/
+
+span{
+	font-size: 20px;
+	vertical-align: middle;
+}
+
+.sidenav {
+  height: 100%; 
+  width: 0; 
+  position: fixed; 
+  z-index: 1; 
+  top: 0;
+  left: 0;
+  background-color: white;
+  opacity: 0.8;
+  overflow-x: hidden; 
+  padding-top: 60px; 
+  transition: 0.5s; 
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: /* #818181 */orange;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 20px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+/* main 사진 부분 */
+
+#hyundai{
+	background-image: url('../img/road1.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 50%;
+	height: 700px;
+	float: left; 
+	color: white;
+	text-align: center;
+}
+
+#hyundai:hover{
+	opacity: 0.8;
+	cursor: pointer;
+}
+
+#ph{
+	margin-top: 30%;
+	font-size: 70px;
+	font-family: 'Old Standard TT';
+	text-shadow: 3px 2px blue;
+}
+
+#pk{
+	margin-top: 30%;
+	font-size: 70px;
+	font-family: 'Old Standard TT';
+	text-shadow: 3px 2px red;
+}
+
+.p1{
+	margin-top: 30px;
+	text-shadow: 3px 2px black;
+}
+
+#kia {
+	background-image: url('../img/road3.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 50%;
+	height: 700px;
+	float: right;
+	color: white;
+	text-align: center;
+}
+
+#kia:hover{
+	opacity: 0.8;
+	cursor: pointer;
+}
